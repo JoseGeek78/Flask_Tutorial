@@ -8,5 +8,5 @@ def index():
     return '<h1>Página de inicio</h1>'
 
 @app.route('/hello/<name>')
-def hello():
+def hello(name):
     return '<h1>Hola Mundo</h1>'
