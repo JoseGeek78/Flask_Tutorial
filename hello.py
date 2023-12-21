@@ -7,6 +7,6 @@ app = Flask(__name__)
 def index():
     return '<h1>Página de inicio</h1>'
 
-@app.route('/hello')
+@app.route('/hello/<name>')
 def hello():
     return '<h1>Hola Mundo</h1>'
